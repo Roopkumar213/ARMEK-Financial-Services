@@ -1,104 +1,87 @@
-🏦 ARMEK Financial Services
-Agentic AI–Powered Personal Loan Assistant
-<p align="center"> <strong>Human-like • Agentic • End-to-End • NBFC-Style Loan Automation</strong> </p>
-🚀 Overview
+ARMEK Financial Services
 
-ARMEK Financial Services is a web-based Agentic AI personal loan sales chatbot designed to simulate a real NBFC loan officer.
+Personal Loan Sales Assistant (Agentic AI)
 
-It replaces static forms and heavy human-agent dependency with a conversational, intelligent, and explainable digital sales assistant that guides users from greeting to sanction letter generation in one seamless flow.
+Overview
 
-🧩 Problem Statement
+ARMEK Financial Services is a web-based personal loan sales chatbot built using an Agentic AI architecture.
+The system simulates an NBFC-style digital sales officer that guides customers through the complete loan journey — from initial interaction to automated sanction letter generation.
 
-A large NBFC operating across India wants to increase personal loan conversion rates while reducing reliance on human agents and static application forms.
+The solution replaces static forms with a conversational interface while keeping credit evaluation, decisioning, and documentation deterministic and explainable.
 
-Key Challenges
+Problem Statement
 
-Low conversion from form-based journeys
+NBFCs rely heavily on static application forms and human agents for personal loan sales, resulting in:
 
-High cost of manual agent handling
+Low conversion rates
 
-Poor customer engagement during loan discovery
+High operational cost
 
 Delayed eligibility identification
 
-💡 Proposed Solution
+Poor customer experience during loan discovery
 
-ARMEK implements a Master–Worker Agent architecture where:
+The objective is to design an AI-driven conversational system that improves conversion while maintaining compliance and decision transparency.
 
-A Master Agent handles all customer-facing conversation
+Solution Approach
 
-Multiple Worker Agents execute specialized backend tasks
+The system follows a Master–Worker Agent design:
 
-Internal decisions are translated into simple, human-friendly responses
+A single Master Agent interacts with the customer
 
-This results in:
+Multiple Worker Agents perform backend tasks
 
-Faster decisions
+The Master Agent orchestrates the flow and translates decisions into user-friendly responses
 
-Better UX
+This ensures separation of concerns, explainability, and extensibility.
 
-Automated approvals
-
-Professional sanction documentation
-
-🧠 Agentic AI Architecture
-Customer
-   │
-   ▼
+System Architecture
+User
+ ↓
 Web Chat UI (React)
-   │
-   ▼
+ ↓
 Master Agent (FastAPI)
-   │
-   ├── KYC / Verification Worker
-   ├── Credit & Eligibility Worker
-   └── Sanction Letter Worker
-   │
-   ▼
-Approval Decision + PDF Sanction Letter
+ ↓
+-------------------------------------------------
+| KYC Worker | Credit Worker | Document Worker |
+-------------------------------------------------
+ ↓
+Approval Decision + Sanction Letter
 
-Design Principles
+Core Capabilities
+Conversational Flow
 
-Single conversational authority (Master Agent)
+Guided, step-by-step interaction
 
-Clear separation of responsibilities
+Context retained across messages
 
-Explainable credit decisions
+Handles corrections without restarting the flow
 
-Deterministic, demo-safe logic
+Verification
 
-✨ Core Features
-🤝 Conversational Sales Journey
+PAN format validation (demo scope)
 
-Human-like greetings and probing questions
+KYC handled by a dedicated worker agent
 
-Step-by-step guided data capture
+Credit Evaluation
 
-Context retention across messages
+Income threshold checks
 
-Smooth handling of corrections
+FOIR-based affordability logic
 
-🤖 Agentic Intelligence
+Risk band classification (Low / Medium / High)
 
-Master Agent orchestrates the journey
+Maximum eligible amount computation
 
-Worker Agents handle:
+Automation
 
-PAN/KYC verification
+Instant approval or rejection
 
-Credit & FOIR evaluation
+Automated PDF sanction letter
 
-Risk banding
+Password-protected document delivery
 
-Document generation
-
-💳 Credit & Eligibility Logic
-Rule	Description
-Income Threshold	Minimum ₹25,000/month
-FOIR	≤ 45%
-Risk Bands	LOW / MEDIUM / HIGH
-Upsell Logic	Calculates max eligible amount
-📄 Automated Sanction Letter
+Sanction Letter Generation
 
 Professionally formatted PDF
 
@@ -106,23 +89,11 @@ Company branding and logo
 
 Key Fact Sheet included
 
-Password-protected (first name, lowercase)
+Encrypted using borrower’s first name
 
-System-generated disclaimer
+System-generated, no physical signature required
 
-🖥️ Web Interface
-
-Modern chatbot UI (React)
-
-Real-time responses
-
-Persistent sanction letter download
-
-Stage indicators (Name → PAN → Income → Approval)
-
-Mobile-friendly and responsive
-
-🛠 Tech Stack
+Technology Stack
 Backend
 
 Python
@@ -133,75 +104,49 @@ ReportLab (PDF generation)
 
 PyPDF (encryption)
 
-Agent-based orchestration
-
 Frontend
 
-React (CRA)
+React (Create React App)
 
 Fetch API
 
 Responsive UI
 
-📂 Repository Structure
+Repository Structure
 ARMEK-Financial-Services/
-│
 ├── backend/
-│   ├── main.py              # API + orchestration
-│   ├── agents.py            # Master Agent (language layer)
-│   ├── workers.py           # Worker agents
+│   ├── main.py
+│   ├── agents.py
+│   ├── workers.py
 │   ├── static/
-│   │   └── nbfc_logo.png
 │   └── generated_letters/
-│       └── .gitkeep
 │
-├── prototype/               # Frontend (React)
+├── prototype/
 │   ├── src/
-│   │   └── components/
-│   │       └── ChatbotPage.js
 │   └── public/
 │
 └── README.md
 
-▶️ End-to-End Demo Flow
+End-to-End Flow
 
-User opens chatbot
+User initiates conversation
 
-Master Agent greets and captures name
+Name and PAN captured
 
-PAN verification (KYC Worker)
+Financial details collected
 
-Income and EMI capture
+Credit eligibility evaluated
 
-Credit evaluation (Credit Worker)
+Approval decision generated
 
-Approval or rejection decision
+Sanction letter issued
 
-Sanction letter generated (Document Worker)
+Disclaimer
 
-User downloads encrypted PDF
-
-🏆 Why This Project Stands Out
-
-True Agentic AI (not a single chatbot function)
-
-Clean Master–Worker orchestration
-
-End-to-end automation (not just eligibility)
-
-Professional UI + document output
-
-Explainable decisioning
-
-Built like a real NBFC product, not a toy demo
-
-⚠️ Disclaimer
-
-This project is a prototype for demonstration purposes only.
+This project is a prototype built for demonstration and evaluation purposes only.
 All credit rules, KYC checks, and approval logic are simulated and do not represent real NBFC policies.
 
-👤 Author
+Author
 
 Roop Kumar
-B.Tech CSE
-Agentic AI & Full Stack Development
+B.Tech – Computer Science Engineering
