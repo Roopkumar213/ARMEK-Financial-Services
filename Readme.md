@@ -1,152 +1,142 @@
-ARMEK Financial Services
-
+# ARMEK Financial Services  
 Personal Loan Sales Assistant (Agentic AI)
 
-Overview
+---
+
+## Overview
 
 ARMEK Financial Services is a web-based personal loan sales chatbot built using an Agentic AI architecture.
-The system simulates an NBFC-style digital sales officer that guides customers through the complete loan journey — from initial interaction to automated sanction letter generation.
 
-The solution replaces static forms with a conversational interface while keeping credit evaluation, decisioning, and documentation deterministic and explainable.
+The system simulates an NBFC-style digital loan officer that guides customers through the complete loan journey — from first interaction to automated sanction letter generation.
 
-Problem Statement
+---
 
-NBFCs rely heavily on static application forms and human agents for personal loan sales, resulting in:
+## Problem Statement
 
-Low conversion rates
+NBFCs depend heavily on static forms and human agents for personal loan sales, which leads to:
 
-High operational cost
+| Challenge | Impact |
+|--------|--------|
+| Static application forms | Low conversion rates |
+| Manual agent handling | High operational cost |
+| Late eligibility checks | Customer drop-offs |
+| Poor loan discovery UX | Reduced trust |
 
-Delayed eligibility identification
+---
 
-Poor customer experience during loan discovery
+## Solution Approach
 
-The objective is to design an AI-driven conversational system that improves conversion while maintaining compliance and decision transparency.
+The system follows a **Master–Worker Agent design**.
 
-Solution Approach
+| Component | Responsibility |
+|--------|----------------|
+| Master Agent | Customer conversation and orchestration |
+| KYC Worker | PAN verification (demo scope) |
+| Credit Worker | Eligibility, FOIR, risk evaluation |
+| Document Worker | Sanction letter generation |
 
-The system follows a Master–Worker Agent design:
+All backend decisions are translated into simple, customer-friendly responses.
 
-A single Master Agent interacts with the customer
+---
 
-Multiple Worker Agents perform backend tasks
+## System Architecture
 
-The Master Agent orchestrates the flow and translates decisions into user-friendly responses
-
-This ensures separation of concerns, explainability, and extensibility.
-
-System Architecture
 User
- ↓
+↓
 Web Chat UI (React)
- ↓
+↓
 Master Agent (FastAPI)
- ↓
--------------------------------------------------
-| KYC Worker | Credit Worker | Document Worker |
--------------------------------------------------
- ↓
-Approval Decision + Sanction Letter
+↓
+| KYC Worker | Credit Worker | Doc Worker |
 
-Core Capabilities
-Conversational Flow
+↓
+Decision + Sanction Letter
 
-Guided, step-by-step interaction
 
-Context retained across messages
+---
 
-Handles corrections without restarting the flow
+## Core Capabilities
 
-Verification
+### Conversation
+- Guided, step-by-step flow  
+- Context retained across messages  
+- Handles corrections without restarting  
 
-PAN format validation (demo scope)
+### Verification
+- PAN format validation  
+- Dedicated KYC worker agent  
 
-KYC handled by a dedicated worker agent
+### Credit Evaluation
+- Income threshold checks  
+- FOIR-based affordability logic  
+- Risk band classification  
+- Maximum eligible amount calculation  
 
-Credit Evaluation
+### Automation
+- Instant approval or rejection  
+- Encrypted PDF sanction letter  
 
-Income threshold checks
+---
 
-FOIR-based affordability logic
+## Sanction Letter
 
-Risk band classification (Low / Medium / High)
+- Professionally formatted PDF  
+- Company branding and logo  
+- Key Fact Sheet included  
+- Password-protected (first name, lowercase)  
+- System-generated (no physical signature)
 
-Maximum eligible amount computation
+---
 
-Automation
+## Technology Stack
 
-Instant approval or rejection
+| Layer | Tech |
+|----|----|
+| Backend | Python, FastAPI |
+| PDF | ReportLab, PyPDF |
+| Frontend | React (CRA) |
+| Architecture | Agentic (Master–Worker) |
 
-Automated PDF sanction letter
+---
 
-Password-protected document delivery
+## Repository Structure
 
-Sanction Letter Generation
-
-Professionally formatted PDF
-
-Company branding and logo
-
-Key Fact Sheet included
-
-Encrypted using borrower’s first name
-
-System-generated, no physical signature required
-
-Technology Stack
-Backend
-
-Python
-
-FastAPI
-
-ReportLab (PDF generation)
-
-PyPDF (encryption)
-
-Frontend
-
-React (Create React App)
-
-Fetch API
-
-Responsive UI
-
-Repository Structure
 ARMEK-Financial-Services/
 ├── backend/
-│   ├── main.py
-│   ├── agents.py
-│   ├── workers.py
-│   ├── static/
-│   └── generated_letters/
+│ ├── main.py
+│ ├── agents.py
+│ ├── workers.py
+│ ├── static/
+│ └── generated_letters/
 │
 ├── prototype/
-│   ├── src/
-│   └── public/
+│ ├── src/
+│ └── public/
 │
 └── README.md
 
-End-to-End Flow
 
-User initiates conversation
+---
 
-Name and PAN captured
+## End-to-End Flow
 
-Financial details collected
+1. User initiates conversation  
+2. Name and PAN captured  
+3. Financial details collected  
+4. Credit eligibility evaluated  
+5. Approval decision generated  
+6. Sanction letter issued  
 
-Credit eligibility evaluated
+---
 
-Approval decision generated
+## Disclaimer
 
-Sanction letter issued
+This project is a prototype built for demonstration and evaluation purposes only.  
+All credit rules and verification logic are simulated.
 
-Disclaimer
+---
 
-This project is a prototype built for demonstration and evaluation purposes only.
-All credit rules, KYC checks, and approval logic are simulated and do not represent real NBFC policies.
+## Author
 
-Author
-
-Roop Kumar
+Roop Kumar  
 B.Tech – Computer Science Engineering
