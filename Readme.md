@@ -99,24 +99,7 @@ Decision + Sanction Letter
 
 ---
 
-## Repository Structure
 
-ARMEK-Financial-Services/
-├── backend/
-│ ├── main.py
-│ ├── agents.py
-│ ├── workers.py
-│ ├── static/
-│ └── generated_letters/
-│
-├── prototype/
-│ ├── src/
-│ └── public/
-│
-└── README.md
-
-
----
 
 ## End-to-End Flow
 
