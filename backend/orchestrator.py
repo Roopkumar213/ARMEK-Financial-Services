@@ -4,14 +4,13 @@ import json
 import logging
 from typing import Dict, Any, List, Optional
 from dotenv import load_dotenv
-from openai import OpenAI
+from llm_factory import get_llm_client, LLM_MODEL
 
 from models import SessionState, AgentAction, WorkerResponse, CustomerProfile
 from workers import EligibilityAgent, CreditBureauAgent, KYCAgent, DocumentAgent, StateReconciliationAgent
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
+client = get_llm_client()
 
 # ==========================================
 # SYSTEM PROMPT
@@ -38,19 +37,39 @@ Guide the user from application to sanction efficiently and safely.
 5. **RESET**: If the user wants to restart, use action type "RESET".
 
 # RESPONSE FORMAT
-You must respond with a JSON object adhering to the AgentAction schema.
+You must respond with a JSON object adhering to this EXACT schema:
+{
+  "type": "CALL_WORKER" | "ASK_USER" | "TERMINATE" | "RESET",
+  "worker_name": "EligibilityAgent" | "CreditBureauAgent" | "KYCAgent" | ... (Required if type is CALL_WORKER),
+  "worker_inputs": { ... dictionary of inputs ... },
+  "user_message": "...",
+  "reasoning": "..."
+}
+
+DO NOT use "action_type", "parameters", or "tool_call". Use "type", "worker_name", and "worker_inputs".
+
 Example:
 {
   "type": "CALL_WORKER",
   "worker_name": "EligibilityAgent",
   "worker_inputs": {"income": 50000, "existing_emi": 5000, "loan_amount": 100000, "tenure_months": 12},
-  "reasoning": "User provided financial details, checking eligibility first as per protocol."
+  "reasoning": "Checking eligibility."
 }
 OR
 {
   "type": "ASK_USER",
   "user_message": "Please provide your PAN number for verification.",
   "reasoning": "Eligibility passed, now proceeding to KYC."
+}
+
+# COMMON SCENARIOS
+Input: "Start Application. My name is Foo, income 50000..."
+Action:
+{
+  "type": "CALL_WORKER",
+  "worker_name": "EligibilityAgent",
+  "worker_inputs": {"income": 50000, ...},
+  "reasoning": "New application detected. Checking eligibility."
 }
 """
 
@@ -143,23 +162,40 @@ class MasterAgent:
         inputs = action.worker_inputs or {}
         name = action.worker_name
         
+        # --- PARAMETER MAPPING LAYER ---
+        # Maps LLM-generated keys to Python-argument keys
+        mapped_inputs = inputs.copy()
+        
+        # 1. Eligibility Mappings
+        if "monthly_income" in inputs: mapped_inputs["income"] = inputs["monthly_income"]
+        if "loan_duration_months" in inputs: mapped_inputs["tenure_months"] = inputs["loan_duration_months"]
+        if "tenure" in inputs: mapped_inputs["tenure_months"] = inputs["tenure"]
+
+        # 2. Credit/KYC Mappings
+        if "pan_number" in inputs: mapped_inputs["pan"] = inputs["pan_number"]
+        if "user_name" in inputs: mapped_inputs["name"] = inputs["user_name"]
+        
+        # 3. Document Mappings
+        if "customer_name" not in inputs and "name" in inputs: mapped_inputs["customer_name"] = inputs["name"]
+
+        # --- EXECUTION ---
         if name == "EligibilityAgent":
             return self.eligibility_agent.check_eligibility(
-                inputs.get("income"), inputs.get("existing_emi"), 
-                inputs.get("loan_amount"), inputs.get("tenure_months")
+                mapped_inputs.get("income"), mapped_inputs.get("existing_emi"), 
+                mapped_inputs.get("loan_amount"), mapped_inputs.get("tenure_months")
             )
         elif name == "CreditBureauAgent":
             return self.credit_agent.check_bureau(
-                inputs.get("pan"), inputs.get("stated_income"), inputs.get("stated_emi")
+                mapped_inputs.get("pan"), mapped_inputs.get("stated_income"), mapped_inputs.get("stated_emi")
             )
         elif name == "KYCAgent":
-            return self.kyc_agent.verify_pan(inputs.get("pan"), inputs.get("name"))
+            return self.kyc_agent.verify_pan(mapped_inputs.get("pan"), mapped_inputs.get("name"))
         elif name == "DocumentAgent":
             return self.doc_agent.generate_sanction_letter(
-                inputs.get("customer_name"), inputs.get("amount"), inputs.get("tenure")
+                mapped_inputs.get("customer_name"), mapped_inputs.get("amount"), mapped_inputs.get("tenure")
             )
         elif name == "StateReconciliationAgent":
-             return self.reconciler.reconcile(session.profile.dict(), inputs)
+             return self.reconciler.reconcile(session.profile.dict(), mapped_inputs)
         
         return WorkerResponse(success=False, error_message="Unknown Worker")
 
@@ -187,14 +223,125 @@ class MasterAgent:
         return [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "system", "content": f"CURRENT STATE: {state_dump}"},
-            {"role": "user", "content": user_input}
+            {"role": "user", "content": user_input},
+            {"role": "system", "content": "IMPORTANT: You are an agent. Respond ONLY with a valid JSON object matching the AgentAction schema. Do not output markdown. Do not echo the state."}
         ]
 
+    def _clean_json(self, content: str) -> str:
+        """Removes markdown code blocks if present."""
+        content = content.strip()
+        if content.startswith("```"):
+            # Find the first newline to skip "```json"
+            first_newline = content.find("\n")
+            if first_newline != -1:
+                content = content[first_newline+1:]
+            # Remove trailing "```"
+            if content.endswith("```"):
+                content = content[:-3]
+        return content.strip()
+
     def _chat_with_llm(self, messages: List[Dict[str, str]]) -> AgentAction:
-        response = client.chat.completions.create(
-            model=OPENAI_MODEL,
-            messages=messages,
-            response_format={"type": "json_object"}
-        )
-        content = response.choices[0].message.content
-        return AgentAction.parse_raw(content)
+        try:
+            response = client.chat.completions.create(
+                model=LLM_MODEL,
+                messages=messages,
+                response_format={"type": "json_object"}
+            )
+            content = response.choices[0].message.content
+            cleaned_content = self._clean_json(content)
+            logging.info(f"raw_llm_response: {cleaned_content}")
+
+            # --- UNIVERSAL REPAIR STRATEGY ---
+            try:
+                data = json.loads(cleaned_content)
+                normalized = {}
+
+                # 1. SEARCH FOR TYPE/ACTION
+                # We look for *any* key that looks like an action identifier
+                type_candidates = ["type", "action_type", "action", "function", "tool_call", "call"]
+                found_type = None
+                for key in type_candidates:
+                    if key in data:
+                        found_type = data[key]
+                        break
+                
+                # 2. SEARCH FOR INPUTS/ARGS
+                # We look for *any* key that looks like inputs
+                input_candidates = ["worker_inputs", "inputs", "parameters", "arguments", "action_arguments", "args", "data"]
+                found_inputs = {}
+                for key in input_candidates:
+                    if key in data:
+                        found_inputs = data[key]
+                        break
+                
+                # 3. NORMALIZE VALUES
+                if found_type:
+                    # Map common hallucinations to internal names
+                    ft_lower = str(found_type).lower()
+                    if ft_lower in ["start_application", "initiate_application", "check_eligibility", "eligibility_check"]:
+                        normalized["type"] = "CALL_WORKER"
+                        normalized["worker_name"] = "EligibilityAgent"
+                    elif "kyc" in ft_lower or "verify" in ft_lower:
+                        normalized["type"] = "CALL_WORKER"
+                        normalized["worker_name"] = "KYCAgent"
+                    elif "credit" in ft_lower or "bureau" in ft_lower:
+                        normalized["type"] = "CALL_WORKER"
+                        normalized["worker_name"] = "CreditBureauAgent"
+                    elif "tool_call" in ft_lower or "call_worker" in ft_lower:
+                        normalized["type"] = "CALL_WORKER"
+                        # Start looking for worker name in inputs if not found
+                        if "action_name" in data:
+                            normalized["worker_name"] = data["action_name"]
+                    else:
+                        normalized["type"] = found_type
+                
+                # 4. Fallback for "worker_name" if missing in normalization
+                if normalized.get("type") == "CALL_WORKER" and "worker_name" not in normalized:
+                    # Try to find it in the original data
+                     if "action_name" in data:
+                         normalized["worker_name"] = data["action_name"]
+                     elif "worker" in data:
+                         normalized["worker_name"] = data["worker"]
+                     else:
+                         # Ultimate fallback
+                         normalized["worker_name"] = "EligibilityAgent"
+
+                # 5. Assign Inputs
+                normalized["worker_inputs"] = found_inputs
+
+                # 6. Ensure Reasoning
+                if "reasoning" in data:
+                    normalized["reasoning"] = data["reasoning"]
+                else:
+                    normalized["reasoning"] = f"Action inferred from {found_type}"
+
+                # 7. Final Sanity Check
+                if "type" not in normalized:
+                     # One last ditch effort: if we have inputs like "monthly_income", it's probably eligibility
+                     if "monthly_income" in str(found_inputs):
+                         normalized["type"] = "CALL_WORKER"
+                         normalized["worker_name"] = "EligibilityAgent"
+                         normalized["reasoning"] = "Inferred Eligibility Check from inputs"
+                     else:
+                         normalized["type"] = "ASK_USER"
+                         normalized["user_message"] = "I am processing your request..."
+                
+                logging.info(f"Normalized Action: {normalized}")
+                return AgentAction.parse_obj(normalized)
+
+            except json.JSONDecodeError:
+                logging.error("Invalid JSON returned LLM")
+                raise ValueError("LLM returned invalid JSON")
+
+            except json.JSONDecodeError:
+                logging.error("Invalid JSON returned LLM")
+                raise ValueError("LLM returned invalid JSON")
+
+        except Exception as e:
+            logging.error(f"Failed to parse LLM response: {content if 'content' in locals() else 'No Content'}")
+            # Fallback to a safe action instead of crashing
+            return AgentAction(
+                type="ASK_USER", 
+                user_message="I clearly misunderstood. Could you re-state that?", 
+                reasoning="Fallback on error."
+            )

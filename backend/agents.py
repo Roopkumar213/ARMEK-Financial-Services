@@ -18,17 +18,10 @@ import os
 import asyncio
 from typing import List, Dict, Any
 
-from openai import OpenAI
-from dotenv import load_dotenv
+from llm_factory import get_llm_client, LLM_MODEL
 
 # ---------- Setup ----------
-load_dotenv(override=True)
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-OPENAI_TIMEOUT_SECONDS = int(os.getenv("OPENAI_TIMEOUT_SECONDS", "30"))
-
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = get_llm_client()
 
 # ---------- System Prompt ----------
 SYSTEM_PROMPT = """
@@ -80,11 +73,10 @@ async def run_master_agent(
     try:
         response = await asyncio.to_thread(
             lambda: client.chat.completions.create(
-                model=OPENAI_MODEL,
+                model=LLM_MODEL,
                 messages=messages,
                 temperature=0.6,
                 max_tokens=220,
-                timeout=OPENAI_TIMEOUT_SECONDS,
             )
         )
         reply = (response.choices[0].message.content or "").strip()

@@ -1,0 +1,1001 @@
+user_id,final_status,rejection_stage,fraud_flag,risk_score,category,is_messy,fraud_type
+REF_0000,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0001,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0002,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0003,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0004,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0005,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0006,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0007,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0008,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0009,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0010,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0011,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0012,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0013,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0014,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0015,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0016,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0017,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0018,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0019,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0020,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0021,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0022,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0023,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0024,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0025,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0026,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0027,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0028,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0029,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0030,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0031,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0032,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0033,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0034,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0035,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0036,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0037,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0038,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0039,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0040,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0041,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0042,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0043,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0044,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0045,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0046,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0047,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0048,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0049,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0050,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0051,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0052,ACCEPTED,None,False,15,Fraud,False,Income Inflation (Subtle)
+REF_0053,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0054,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0055,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0056,ACCEPTED,None,False,15,Fraud,False,Income Inflation (Subtle)
+REF_0057,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0058,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0059,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0060,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0061,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0062,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0063,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0064,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0065,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0066,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0067,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0068,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0069,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0070,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0071,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0072,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0073,ACCEPTED,None,False,15,Fraud,False,Income Inflation (Subtle)
+REF_0074,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0075,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0076,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0077,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0078,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0079,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0080,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0081,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0082,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0083,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0084,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0085,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0086,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0087,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0088,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0089,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0090,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0091,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0092,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0093,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0094,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0095,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0096,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0097,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0098,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0099,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0100,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0101,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0102,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0103,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0104,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0105,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0106,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0107,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0108,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0109,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0110,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0111,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0112,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0113,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0114,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0115,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0116,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0117,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0118,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0119,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0120,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0121,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0122,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0123,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0124,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0125,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0126,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0127,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0128,ACCEPTED,None,False,0,Fraud,False,Income Inflation (Subtle)
+REF_0129,REJECTED,CreditBureauAgent,True,95,Fraud,False,Income Inflation (Severe)
+REF_0130,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0131,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0132,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0133,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0134,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0135,REJECTED,CreditBureauAgent,True,170,Fraud,False,Income Inflation (Severe)
+REF_0136,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0137,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0138,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0139,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0140,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0141,ACCEPTED,None,False,15,Fraud,False,Income Inflation (Subtle)
+REF_0142,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0143,REJECTED,CreditBureauAgent,True,165,Fraud,False,Hidden Liability
+REF_0144,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0145,REJECTED,CreditBureauAgent,True,90,Fraud,False,Hidden Liability
+REF_0146,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0147,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0148,REJECTED,CreditBureauAgent,True,80,Fraud,False,Income Inflation (Severe)
+REF_0149,REJECTED,CreditBureauAgent,True,90,Fraud,False,Synthetic ID
+REF_0150,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0151,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0152,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0153,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0154,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0155,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0156,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0157,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0158,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0159,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0160,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0161,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0162,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0163,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0164,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0165,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0166,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0167,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0168,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0169,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0170,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0171,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0172,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0173,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0174,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0175,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0176,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0177,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0178,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0179,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0180,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0181,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0182,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0183,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0184,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0185,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0186,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0187,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0188,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0189,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0190,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0191,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0192,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0193,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0194,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0195,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0196,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0197,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0198,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0199,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0200,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0201,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0202,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0203,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0204,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0205,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0206,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0207,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0208,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0209,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0210,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0211,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0212,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0213,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0214,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0215,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0216,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0217,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0218,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0219,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0220,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0221,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0222,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0223,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0224,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0225,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0226,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0227,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0228,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0229,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0230,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0231,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0232,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0233,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0234,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0235,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0236,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0237,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0238,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0239,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0240,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0241,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0242,REJECTED,EligibilityAgent,False,0,Borderline_Messy,True,None
+REF_0243,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0244,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0245,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0246,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0247,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0248,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0249,REJECTED,CreditBureauAgent,True,50,Borderline_Messy,True,None
+REF_0250,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0251,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0252,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0253,ACCEPTED,None,False,0,Eligible,False,None
+REF_0254,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0255,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0256,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0257,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0258,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0259,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0260,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0261,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0262,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0263,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0264,ACCEPTED,None,False,0,Eligible,False,None
+REF_0265,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0266,ACCEPTED,None,False,0,Eligible,False,None
+REF_0267,ACCEPTED,None,False,0,Eligible,False,None
+REF_0268,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0269,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0270,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0271,ACCEPTED,None,False,0,Eligible,False,None
+REF_0272,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0273,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0274,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0275,ACCEPTED,None,False,0,Eligible,False,None
+REF_0276,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0277,ACCEPTED,None,False,0,Eligible,False,None
+REF_0278,ACCEPTED,None,False,0,Eligible,False,None
+REF_0279,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0280,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0281,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0282,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0283,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0284,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0285,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0286,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0287,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0288,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0289,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0290,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0291,ACCEPTED,None,False,0,Eligible,False,None
+REF_0292,ACCEPTED,None,False,0,Eligible,False,None
+REF_0293,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0294,ACCEPTED,None,False,0,Eligible,False,None
+REF_0295,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0296,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0297,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0298,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0299,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0300,ACCEPTED,None,False,0,Eligible,False,None
+REF_0301,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0302,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0303,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0304,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0305,ACCEPTED,None,False,0,Eligible,False,None
+REF_0306,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0307,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0308,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0309,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0310,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0311,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0312,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0313,ACCEPTED,None,False,0,Eligible,False,None
+REF_0314,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0315,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0316,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0317,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0318,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0319,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0320,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0321,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0322,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0323,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0324,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0325,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0326,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0327,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0328,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0329,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0330,ACCEPTED,None,False,0,Eligible,False,None
+REF_0331,ACCEPTED,None,False,0,Eligible,False,None
+REF_0332,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0333,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0334,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0335,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0336,ACCEPTED,None,False,0,Eligible,False,None
+REF_0337,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0338,ACCEPTED,None,False,0,Eligible,False,None
+REF_0339,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0340,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0341,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0342,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0343,ACCEPTED,None,False,0,Eligible,False,None
+REF_0344,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0345,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0346,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0347,ACCEPTED,None,False,0,Eligible,False,None
+REF_0348,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0349,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0350,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0351,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0352,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0353,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0354,ACCEPTED,None,False,0,Eligible,False,None
+REF_0355,ACCEPTED,None,False,0,Eligible,False,None
+REF_0356,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0357,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0358,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0359,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0360,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0361,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0362,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0363,ACCEPTED,None,False,0,Eligible,False,None
+REF_0364,ACCEPTED,None,False,0,Eligible,False,None
+REF_0365,ACCEPTED,None,False,0,Eligible,False,None
+REF_0366,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0367,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0368,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0369,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0370,ACCEPTED,None,False,0,Eligible,False,None
+REF_0371,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0372,ACCEPTED,None,False,0,Eligible,False,None
+REF_0373,ACCEPTED,None,False,0,Eligible,False,None
+REF_0374,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0375,ACCEPTED,None,False,0,Eligible,False,None
+REF_0376,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0377,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0378,ACCEPTED,None,False,0,Eligible,False,None
+REF_0379,ACCEPTED,None,False,0,Eligible,False,None
+REF_0380,ACCEPTED,None,False,0,Eligible,False,None
+REF_0381,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0382,ACCEPTED,None,False,0,Eligible,False,None
+REF_0383,ACCEPTED,None,False,0,Eligible,False,None
+REF_0384,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0385,ACCEPTED,None,False,0,Eligible,False,None
+REF_0386,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0387,ACCEPTED,None,False,0,Eligible,False,None
+REF_0388,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0389,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0390,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0391,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0392,ACCEPTED,None,False,0,Eligible,False,None
+REF_0393,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0394,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0395,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0396,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0397,ACCEPTED,None,False,0,Eligible,False,None
+REF_0398,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0399,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0400,ACCEPTED,None,False,0,Eligible,False,None
+REF_0401,ACCEPTED,None,False,0,Eligible,False,None
+REF_0402,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0403,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0404,ACCEPTED,None,False,0,Eligible,False,None
+REF_0405,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0406,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0407,ACCEPTED,None,False,0,Eligible,False,None
+REF_0408,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0409,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0410,ACCEPTED,None,False,0,Eligible,False,None
+REF_0411,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0412,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0413,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0414,ACCEPTED,None,False,0,Eligible,False,None
+REF_0415,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0416,ACCEPTED,None,False,0,Eligible,False,None
+REF_0417,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0418,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0419,ACCEPTED,None,False,0,Eligible,False,None
+REF_0420,ACCEPTED,None,False,0,Eligible,False,None
+REF_0421,ACCEPTED,None,False,0,Eligible,False,None
+REF_0422,ACCEPTED,None,False,0,Eligible,False,None
+REF_0423,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0424,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0425,ACCEPTED,None,False,0,Eligible,False,None
+REF_0426,ACCEPTED,None,False,0,Eligible,False,None
+REF_0427,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0428,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0429,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0430,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0431,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0432,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0433,ACCEPTED,None,False,0,Eligible,False,None
+REF_0434,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0435,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0436,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0437,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0438,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0439,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0440,ACCEPTED,None,False,0,Eligible,False,None
+REF_0441,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0442,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0443,ACCEPTED,None,False,0,Eligible,False,None
+REF_0444,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0445,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0446,ACCEPTED,None,False,0,Eligible,False,None
+REF_0447,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0448,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0449,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0450,ACCEPTED,None,False,0,Eligible,False,None
+REF_0451,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0452,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0453,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0454,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0455,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0456,ACCEPTED,None,False,0,Eligible,False,None
+REF_0457,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0458,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0459,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0460,ACCEPTED,None,False,0,Eligible,False,None
+REF_0461,ACCEPTED,None,False,0,Eligible,False,None
+REF_0462,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0463,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0464,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0465,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0466,ACCEPTED,None,False,0,Eligible,False,None
+REF_0467,ACCEPTED,None,False,0,Eligible,False,None
+REF_0468,ACCEPTED,None,False,0,Eligible,False,None
+REF_0469,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0470,ACCEPTED,None,False,0,Eligible,False,None
+REF_0471,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0472,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0473,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0474,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0475,ACCEPTED,None,False,0,Eligible,False,None
+REF_0476,ACCEPTED,None,False,0,Eligible,False,None
+REF_0477,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0478,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0479,ACCEPTED,None,False,0,Eligible,False,None
+REF_0480,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0481,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0482,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0483,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0484,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0485,ACCEPTED,None,False,0,Eligible,False,None
+REF_0486,ACCEPTED,None,False,0,Eligible,False,None
+REF_0487,ACCEPTED,None,False,0,Eligible,False,None
+REF_0488,ACCEPTED,None,False,0,Eligible,False,None
+REF_0489,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0490,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0491,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0492,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0493,ACCEPTED,None,False,0,Eligible,False,None
+REF_0494,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0495,ACCEPTED,None,False,0,Eligible,False,None
+REF_0496,ACCEPTED,None,False,0,Eligible,False,None
+REF_0497,ACCEPTED,None,False,0,Eligible,False,None
+REF_0498,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0499,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0500,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0501,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0502,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0503,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0504,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0505,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0506,ACCEPTED,None,False,0,Eligible,False,None
+REF_0507,ACCEPTED,None,False,0,Eligible,False,None
+REF_0508,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0509,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0510,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0511,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0512,ACCEPTED,None,False,0,Eligible,False,None
+REF_0513,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0514,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0515,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0516,ACCEPTED,None,False,0,Eligible,False,None
+REF_0517,ACCEPTED,None,False,0,Eligible,False,None
+REF_0518,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0519,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0520,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0521,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0522,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0523,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0524,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0525,ACCEPTED,None,False,0,Eligible,False,None
+REF_0526,ACCEPTED,None,False,0,Eligible,False,None
+REF_0527,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0528,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0529,ACCEPTED,None,False,0,Eligible,False,None
+REF_0530,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0531,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0532,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0533,ACCEPTED,None,False,0,Eligible,False,None
+REF_0534,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0535,ACCEPTED,None,False,0,Eligible,False,None
+REF_0536,ACCEPTED,None,False,0,Eligible,False,None
+REF_0537,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0538,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0539,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0540,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0541,ACCEPTED,None,False,0,Eligible,False,None
+REF_0542,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0543,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0544,ACCEPTED,None,False,0,Eligible,False,None
+REF_0545,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0546,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0547,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0548,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0549,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0550,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0551,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0552,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0553,ACCEPTED,None,False,0,Eligible,False,None
+REF_0554,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0555,ACCEPTED,None,False,0,Eligible,False,None
+REF_0556,ACCEPTED,None,False,0,Eligible,False,None
+REF_0557,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0558,ACCEPTED,None,False,0,Eligible,False,None
+REF_0559,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0560,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0561,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0562,ACCEPTED,None,False,0,Eligible,False,None
+REF_0563,ACCEPTED,None,False,0,Eligible,False,None
+REF_0564,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0565,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0566,ACCEPTED,None,False,0,Eligible,False,None
+REF_0567,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0568,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0569,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0570,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0571,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0572,ACCEPTED,None,False,0,Eligible,False,None
+REF_0573,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0574,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0575,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0576,ACCEPTED,None,False,0,Eligible,False,None
+REF_0577,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0578,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0579,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0580,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0581,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0582,ACCEPTED,None,False,0,Eligible,False,None
+REF_0583,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0584,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0585,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0586,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0587,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0588,ACCEPTED,None,False,0,Eligible,False,None
+REF_0589,ACCEPTED,None,False,0,Eligible,False,None
+REF_0590,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0591,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0592,ACCEPTED,None,False,0,Eligible,False,None
+REF_0593,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0594,ACCEPTED,None,False,0,Eligible,False,None
+REF_0595,ACCEPTED,None,False,0,Eligible,False,None
+REF_0596,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0597,ACCEPTED,None,False,0,Eligible,False,None
+REF_0598,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0599,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0600,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0601,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0602,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0603,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0604,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0605,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0606,ACCEPTED,None,False,0,Eligible,False,None
+REF_0607,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0608,ACCEPTED,None,False,0,Eligible,False,None
+REF_0609,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0610,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0611,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0612,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0613,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0614,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0615,ACCEPTED,None,False,0,Eligible,False,None
+REF_0616,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0617,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0618,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0619,ACCEPTED,None,False,0,Eligible,False,None
+REF_0620,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0621,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0622,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0623,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0624,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0625,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0626,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0627,ACCEPTED,None,False,0,Eligible,False,None
+REF_0628,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0629,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0630,ACCEPTED,None,False,0,Eligible,False,None
+REF_0631,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0632,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0633,ACCEPTED,None,False,0,Eligible,False,None
+REF_0634,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0635,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0636,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0637,ACCEPTED,None,False,0,Eligible,False,None
+REF_0638,ACCEPTED,None,False,0,Eligible,False,None
+REF_0639,REJECTED,CreditBureauAgent,True,50,Ineligible_Credit,False,None
+REF_0640,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0641,ACCEPTED,None,False,0,Eligible,False,None
+REF_0642,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0643,ACCEPTED,None,False,0,Eligible,False,None
+REF_0644,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0645,ACCEPTED,None,False,0,Eligible,False,None
+REF_0646,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0647,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0648,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0649,ACCEPTED,None,False,0,Eligible,False,None
+REF_0650,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0651,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0652,ACCEPTED,None,False,0,Eligible,False,None
+REF_0653,ACCEPTED,None,False,0,Eligible,False,None
+REF_0654,ACCEPTED,None,False,0,Eligible,False,None
+REF_0655,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0656,ACCEPTED,None,False,0,Eligible,False,None
+REF_0657,ACCEPTED,None,False,0,Eligible,False,None
+REF_0658,ACCEPTED,None,False,0,Eligible,False,None
+REF_0659,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0660,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0661,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0662,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0663,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0664,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0665,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0666,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0667,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0668,ACCEPTED,None,False,0,Eligible,False,None
+REF_0669,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0670,ACCEPTED,None,False,0,Eligible,False,None
+REF_0671,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0672,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0673,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0674,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0675,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0676,ACCEPTED,None,False,0,Eligible,False,None
+REF_0677,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0678,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0679,ACCEPTED,None,False,0,Eligible,False,None
+REF_0680,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0681,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0682,ACCEPTED,None,False,0,Eligible,False,None
+REF_0683,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0684,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0685,ACCEPTED,None,False,0,Eligible,False,None
+REF_0686,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0687,ACCEPTED,None,False,0,Eligible,False,None
+REF_0688,ACCEPTED,None,False,0,Eligible,False,None
+REF_0689,ACCEPTED,None,False,0,Eligible,False,None
+REF_0690,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0691,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0692,ACCEPTED,None,False,0,Eligible,False,None
+REF_0693,ACCEPTED,None,False,0,Eligible,False,None
+REF_0694,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0695,ACCEPTED,None,False,0,Eligible,False,None
+REF_0696,ACCEPTED,None,False,0,Eligible,False,None
+REF_0697,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0698,ACCEPTED,None,False,0,Eligible,False,None
+REF_0699,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0700,ACCEPTED,None,False,0,Eligible,False,None
+REF_0701,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0702,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0703,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0704,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0705,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0706,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0707,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0708,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0709,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0710,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0711,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0712,ACCEPTED,None,False,0,Eligible,False,None
+REF_0713,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0714,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0715,ACCEPTED,None,False,0,Eligible,False,None
+REF_0716,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0717,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0718,ACCEPTED,None,False,0,Eligible,False,None
+REF_0719,ACCEPTED,None,False,0,Eligible,False,None
+REF_0720,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0721,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0722,ACCEPTED,None,False,0,Eligible,False,None
+REF_0723,ACCEPTED,None,False,0,Eligible,False,None
+REF_0724,ACCEPTED,None,False,0,Eligible,False,None
+REF_0725,ACCEPTED,None,False,0,Eligible,False,None
+REF_0726,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0727,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0728,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0729,ACCEPTED,None,False,0,Eligible,False,None
+REF_0730,ACCEPTED,None,False,0,Eligible,False,None
+REF_0731,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0732,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0733,ACCEPTED,None,False,0,Eligible,False,None
+REF_0734,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0735,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0736,ACCEPTED,None,False,0,Eligible,False,None
+REF_0737,ACCEPTED,None,False,0,Eligible,False,None
+REF_0738,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0739,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0740,ACCEPTED,None,False,0,Eligible,False,None
+REF_0741,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0742,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0743,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0744,ACCEPTED,None,False,0,Eligible,False,None
+REF_0745,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0746,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0747,ACCEPTED,None,False,0,Eligible,False,None
+REF_0748,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0749,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0750,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0751,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0752,ACCEPTED,None,False,0,Eligible,False,None
+REF_0753,ACCEPTED,None,False,0,Eligible,False,None
+REF_0754,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0755,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0756,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0757,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0758,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0759,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0760,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0761,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0762,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0763,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0764,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0765,ACCEPTED,None,False,0,Eligible,False,None
+REF_0766,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0767,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0768,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0769,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0770,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0771,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0772,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0773,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0774,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0775,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0776,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0777,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0778,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0779,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0780,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0781,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0782,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0783,ACCEPTED,None,False,0,Eligible,False,None
+REF_0784,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0785,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0786,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0787,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0788,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0789,ACCEPTED,None,False,0,Eligible,False,None
+REF_0790,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0791,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0792,ACCEPTED,None,False,0,Eligible,False,None
+REF_0793,ACCEPTED,None,False,0,Eligible,False,None
+REF_0794,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0795,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0796,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0797,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0798,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0799,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0800,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0801,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0802,REJECTED,CreditBureauAgent,True,50,Eligible,False,None
+REF_0803,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0804,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0805,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0806,ACCEPTED,None,False,0,Eligible,False,None
+REF_0807,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0808,ACCEPTED,None,False,0,Eligible,False,None
+REF_0809,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0810,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0811,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0812,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0813,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0814,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0815,ACCEPTED,None,False,0,Eligible,False,None
+REF_0816,ACCEPTED,None,False,0,Eligible,False,None
+REF_0817,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0818,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0819,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0820,ACCEPTED,None,False,0,Eligible,False,None
+REF_0821,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0822,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0823,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0824,ACCEPTED,None,False,0,Eligible,False,None
+REF_0825,ACCEPTED,None,False,0,Eligible,False,None
+REF_0826,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0827,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0828,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0829,ACCEPTED,None,False,0,Eligible,False,None
+REF_0830,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0831,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0832,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0833,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0834,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0835,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0836,ACCEPTED,None,False,0,Eligible,False,None
+REF_0837,ACCEPTED,None,False,0,Eligible,False,None
+REF_0838,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0839,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0840,ACCEPTED,None,False,0,Eligible,False,None
+REF_0841,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0842,ACCEPTED,None,False,0,Eligible,False,None
+REF_0843,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0844,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0845,ACCEPTED,None,False,0,Eligible,False,None
+REF_0846,ACCEPTED,None,False,0,Eligible,False,None
+REF_0847,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0848,ACCEPTED,None,False,0,Eligible,False,None
+REF_0849,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0850,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0851,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0852,ACCEPTED,None,False,0,Eligible,False,None
+REF_0853,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0854,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0855,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0856,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0857,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0858,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0859,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0860,ACCEPTED,None,False,0,Eligible,False,None
+REF_0861,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0862,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0863,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0864,ACCEPTED,None,False,0,Eligible,False,None
+REF_0865,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0866,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0867,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0868,ACCEPTED,None,False,0,Eligible,False,None
+REF_0869,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0870,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0871,ACCEPTED,None,False,0,Eligible,False,None
+REF_0872,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0873,ACCEPTED,None,False,0,Eligible,False,None
+REF_0874,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0875,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0876,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0877,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0878,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0879,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0880,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0881,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0882,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0883,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0884,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0885,ACCEPTED,None,False,0,Eligible,False,None
+REF_0886,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0887,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0888,ACCEPTED,None,False,0,Eligible,False,None
+REF_0889,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0890,ACCEPTED,None,False,0,Eligible,False,None
+REF_0891,ACCEPTED,None,False,0,Eligible,False,None
+REF_0892,ACCEPTED,None,False,0,Eligible,False,None
+REF_0893,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0894,ACCEPTED,None,False,0,Eligible,False,None
+REF_0895,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0896,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0897,ACCEPTED,None,False,0,Eligible,False,None
+REF_0898,ACCEPTED,None,False,0,Eligible,False,None
+REF_0899,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0900,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0901,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0902,ACCEPTED,None,False,0,Eligible,False,None
+REF_0903,ACCEPTED,None,False,0,Eligible,False,None
+REF_0904,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0905,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0906,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0907,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0908,ACCEPTED,None,False,0,Eligible,False,None
+REF_0909,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0910,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0911,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0912,ACCEPTED,None,False,0,Eligible,False,None
+REF_0913,ACCEPTED,None,False,0,Eligible,False,None
+REF_0914,ACCEPTED,None,False,0,Eligible,False,None
+REF_0915,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0916,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0917,ACCEPTED,None,False,0,Eligible,False,None
+REF_0918,ACCEPTED,None,False,0,Eligible,False,None
+REF_0919,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0920,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0921,ACCEPTED,None,False,0,Eligible,False,None
+REF_0922,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0923,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0924,ACCEPTED,None,False,0,Eligible,False,None
+REF_0925,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0926,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0927,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0928,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0929,ACCEPTED,None,False,0,Eligible,False,None
+REF_0930,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0931,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0932,ACCEPTED,None,False,0,Eligible,False,None
+REF_0933,ACCEPTED,None,False,0,Eligible,False,None
+REF_0934,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0935,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0936,ACCEPTED,None,False,0,Eligible,False,None
+REF_0937,ACCEPTED,None,False,0,Eligible,False,None
+REF_0938,ACCEPTED,None,False,0,Eligible,False,None
+REF_0939,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0940,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0941,ACCEPTED,None,False,0,Eligible,False,None
+REF_0942,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0943,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0944,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0945,ACCEPTED,None,False,0,Eligible,False,None
+REF_0946,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0947,ACCEPTED,None,False,0,Eligible,False,None
+REF_0948,ACCEPTED,None,False,0,Eligible,False,None
+REF_0949,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0950,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0951,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0952,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0953,ACCEPTED,None,False,0,Eligible,False,None
+REF_0954,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0955,ACCEPTED,None,False,0,Eligible,False,None
+REF_0956,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0957,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0958,REJECTED,EligibilityAgent,False,0,Ineligible_Credit,False,None
+REF_0959,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0960,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0961,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0962,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0963,ACCEPTED,None,False,0,Eligible,False,None
+REF_0964,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0965,ACCEPTED,None,False,0,Eligible,False,None
+REF_0966,ACCEPTED,None,False,0,Ineligible_Credit,False,None
+REF_0967,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0968,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0969,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0970,ACCEPTED,None,False,0,Eligible,False,None
+REF_0971,ACCEPTED,None,False,0,Eligible,False,None
+REF_0972,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0973,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0974,ACCEPTED,None,False,0,Eligible,False,None
+REF_0975,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0976,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0977,ACCEPTED,None,False,0,Eligible,False,None
+REF_0978,ACCEPTED,None,False,0,Eligible,False,None
+REF_0979,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0980,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0981,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0982,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0983,ACCEPTED,None,False,0,Eligible,False,None
+REF_0984,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0985,ACCEPTED,None,False,0,Eligible,False,None
+REF_0986,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0987,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0988,ACCEPTED,None,False,0,Eligible,False,None
+REF_0989,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0990,ACCEPTED,None,False,0,Eligible,False,None
+REF_0991,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0992,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0993,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0994,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0995,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0996,ACCEPTED,None,False,0,Eligible,False,None
+REF_0997,REJECTED,EligibilityAgent,False,0,Ineligible_Income,False,None
+REF_0998,REJECTED,EligibilityAgent,False,0,Eligible,False,None
+REF_0999,ACCEPTED,None,False,0,Eligible,False,None

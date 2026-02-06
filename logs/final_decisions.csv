@@ -1,0 +1,1001 @@
+user_id,final_status,rejection_stage,primary_reason,fraud_flag,category,data_source
+REF_0000,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (611)']",True,Fraud,Adversarial_Injection
+REF_0001,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹35064)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (540)']",True,Fraud,Adversarial_Injection
+REF_0002,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (479)']",True,Fraud,Adversarial_Injection
+REF_0003,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (626)']",True,Fraud,Adversarial_Injection
+REF_0004,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (569)']",True,Fraud,Adversarial_Injection
+REF_0005,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (546)']",True,Fraud,Adversarial_Injection
+REF_0006,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0007,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹34631)', 'Credit Score Risk (533)']",True,Fraud,Adversarial_Injection
+REF_0008,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (402)']",True,Fraud,Adversarial_Injection
+REF_0009,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (532)']",True,Fraud,Adversarial_Injection
+REF_0010,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (527)']",True,Fraud,Adversarial_Injection
+REF_0011,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (342)']",True,Fraud,Adversarial_Injection
+REF_0012,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (425)']",True,Fraud,Adversarial_Injection
+REF_0013,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (556)']",True,Fraud,Adversarial_Injection
+REF_0014,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹35595)', 'Credit Score Risk (633)']",True,Fraud,Adversarial_Injection
+REF_0015,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (425)']",True,Fraud,Adversarial_Injection
+REF_0016,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (530)']",True,Fraud,Adversarial_Injection
+REF_0017,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (622)']",True,Fraud,Adversarial_Injection
+REF_0018,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (456)']",True,Fraud,Adversarial_Injection
+REF_0019,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (469)']",True,Fraud,Adversarial_Injection
+REF_0020,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (469)']",True,Fraud,Adversarial_Injection
+REF_0021,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (626)']",True,Fraud,Adversarial_Injection
+REF_0022,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (413)']",True,Fraud,Adversarial_Injection
+REF_0023,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0024,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (457)']",True,Fraud,Adversarial_Injection
+REF_0025,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (502)']",True,Fraud,Adversarial_Injection
+REF_0026,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (308)']",True,Fraud,Adversarial_Injection
+REF_0027,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0028,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (343)']",True,Fraud,Adversarial_Injection
+REF_0029,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹54212)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (551)']",True,Fraud,Adversarial_Injection
+REF_0030,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0031,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (354)']",True,Fraud,Adversarial_Injection
+REF_0032,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (514)']",True,Fraud,Adversarial_Injection
+REF_0033,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0034,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0035,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (625)']",True,Fraud,Adversarial_Injection
+REF_0036,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (618)']",True,Fraud,Adversarial_Injection
+REF_0037,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (570)']",True,Fraud,Adversarial_Injection
+REF_0038,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (388)']",True,Fraud,Adversarial_Injection
+REF_0039,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (454)']",True,Fraud,Adversarial_Injection
+REF_0040,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (342)']",True,Fraud,Adversarial_Injection
+REF_0041,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0042,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0043,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (465)']",True,Fraud,Adversarial_Injection
+REF_0044,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0045,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (632)']",True,Fraud,Adversarial_Injection
+REF_0046,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹70607)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (560)']",True,Fraud,Adversarial_Injection
+REF_0047,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (427)']",True,Fraud,Adversarial_Injection
+REF_0048,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (584)']",True,Fraud,Adversarial_Injection
+REF_0049,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (419)']",True,Fraud,Adversarial_Injection
+REF_0050,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (646)']",True,Fraud,Adversarial_Injection
+REF_0051,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (560)']",True,Fraud,Adversarial_Injection
+REF_0052,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (501)']",True,Fraud,Adversarial_Injection
+REF_0053,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (556)']",True,Fraud,Adversarial_Injection
+REF_0054,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0055,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (474)']",True,Fraud,Adversarial_Injection
+REF_0056,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (582)']",True,Fraud,Adversarial_Injection
+REF_0057,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (609)']",True,Fraud,Adversarial_Injection
+REF_0058,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (524)']",True,Fraud,Adversarial_Injection
+REF_0059,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (457)']",True,Fraud,Adversarial_Injection
+REF_0060,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹29790)', 'Credit Score Risk (534)']",True,Fraud,Adversarial_Injection
+REF_0061,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹26088)', 'Credit Score Risk (560)']",True,Fraud,Adversarial_Injection
+REF_0062,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0063,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0064,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (622)']",True,Fraud,Adversarial_Injection
+REF_0065,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (585)']",True,Fraud,Adversarial_Injection
+REF_0066,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹38437)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (536)']",True,Fraud,Adversarial_Injection
+REF_0067,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (516)']",True,Fraud,Adversarial_Injection
+REF_0068,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (610)']",True,Fraud,Adversarial_Injection
+REF_0069,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (647)']",True,Fraud,Adversarial_Injection
+REF_0070,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (467)']",True,Fraud,Adversarial_Injection
+REF_0071,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0072,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (560)']",True,Fraud,Adversarial_Injection
+REF_0073,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (405)']",True,Fraud,Adversarial_Injection
+REF_0074,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0075,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (578)']",True,Fraud,Adversarial_Injection
+REF_0076,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹29087)', 'Credit Score Risk (553)']",True,Fraud,Adversarial_Injection
+REF_0077,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (521)']",True,Fraud,Adversarial_Injection
+REF_0078,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (638)']",True,Fraud,Adversarial_Injection
+REF_0079,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (607)']",True,Fraud,Adversarial_Injection
+REF_0080,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (406)']",True,Fraud,Adversarial_Injection
+REF_0081,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (543)']",True,Fraud,Adversarial_Injection
+REF_0082,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (363)']",True,Fraud,Adversarial_Injection
+REF_0083,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (616)']",True,Fraud,Adversarial_Injection
+REF_0084,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (586)']",True,Fraud,Adversarial_Injection
+REF_0085,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (551)']",True,Fraud,Adversarial_Injection
+REF_0086,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (460)']",True,Fraud,Adversarial_Injection
+REF_0087,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0088,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (508)']",True,Fraud,Adversarial_Injection
+REF_0089,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0090,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (641)']",True,Fraud,Adversarial_Injection
+REF_0091,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (591)']",True,Fraud,Adversarial_Injection
+REF_0092,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (631)']",True,Fraud,Adversarial_Injection
+REF_0093,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (591)']",True,Fraud,Adversarial_Injection
+REF_0094,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹38591)', 'Credit Score Risk (645)']",True,Fraud,Adversarial_Injection
+REF_0095,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (622)']",True,Fraud,Adversarial_Injection
+REF_0096,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (559)']",True,Fraud,Adversarial_Injection
+REF_0097,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹35114)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (560)']",True,Fraud,Adversarial_Injection
+REF_0098,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (460)']",True,Fraud,Adversarial_Injection
+REF_0099,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (608)']",True,Fraud,Adversarial_Injection
+REF_0100,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0101,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (628)']",True,Fraud,Adversarial_Injection
+REF_0102,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (591)']",True,Fraud,Adversarial_Injection
+REF_0103,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (456)']",True,Fraud,Adversarial_Injection
+REF_0104,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (311)']",True,Fraud,Adversarial_Injection
+REF_0105,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (510)']",True,Fraud,Adversarial_Injection
+REF_0106,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (554)']",True,Fraud,Adversarial_Injection
+REF_0107,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹101052)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (502)']",True,Fraud,Adversarial_Injection
+REF_0108,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹63589)', 'Credit Score Risk (605)']",True,Fraud,Adversarial_Injection
+REF_0109,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (581)']",True,Fraud,Adversarial_Injection
+REF_0110,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (571)']",True,Fraud,Adversarial_Injection
+REF_0111,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (580)']",True,Fraud,Adversarial_Injection
+REF_0112,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹28265)', 'Credit Score Risk (533)']",True,Fraud,Adversarial_Injection
+REF_0113,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (496)']",True,Fraud,Adversarial_Injection
+REF_0114,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹48873)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (559)']",True,Fraud,Adversarial_Injection
+REF_0115,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (584)']",True,Fraud,Adversarial_Injection
+REF_0116,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (620)']",True,Fraud,Adversarial_Injection
+REF_0117,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (618)']",True,Fraud,Adversarial_Injection
+REF_0118,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (330)']",True,Fraud,Adversarial_Injection
+REF_0119,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (606)']",True,Fraud,Adversarial_Injection
+REF_0120,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (630)']",True,Fraud,Adversarial_Injection
+REF_0121,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (572)']",True,Fraud,Adversarial_Injection
+REF_0122,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (583)']",True,Fraud,Adversarial_Injection
+REF_0123,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (373)']",True,Fraud,Adversarial_Injection
+REF_0124,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0125,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (622)']",True,Fraud,Adversarial_Injection
+REF_0126,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹28408)', 'Credit Score Risk (627)']",True,Fraud,Adversarial_Injection
+REF_0127,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 165). ['CRITICAL: Hidden Debt Detected (₹46429)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (506)']",True,Fraud,Adversarial_Injection
+REF_0128,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0129,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (586)']",True,Fraud,Adversarial_Injection
+REF_0130,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (481)']",True,Fraud,Adversarial_Injection
+REF_0131,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (546)']",True,Fraud,Adversarial_Injection
+REF_0132,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (639)']",True,Fraud,Adversarial_Injection
+REF_0133,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0134,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (376)']",True,Fraud,Adversarial_Injection
+REF_0135,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (552)']",True,Fraud,Adversarial_Injection
+REF_0136,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (621)']",True,Fraud,Adversarial_Injection
+REF_0137,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (444)']",True,Fraud,Adversarial_Injection
+REF_0138,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (385)']",True,Fraud,Adversarial_Injection
+REF_0139,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (530)']",True,Fraud,Adversarial_Injection
+REF_0140,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (333)']",True,Fraud,Adversarial_Injection
+REF_0141,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (339)']",True,Fraud,Adversarial_Injection
+REF_0142,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0143,REJECTED,CreditBureauAgent,CRITICAL FRAUD RISK (Score 80). ['CRITICAL: Income >1.5x Verified (3.3x)'],True,Fraud,Adversarial_Injection
+REF_0144,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (630)']",True,Fraud,Adversarial_Injection
+REF_0145,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (625)']",True,Fraud,Adversarial_Injection
+REF_0146,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (594)']",True,Fraud,Adversarial_Injection
+REF_0147,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 95). ['CRITICAL: Income >1.5x Verified (3.3x)', 'Credit Score Risk (614)']",True,Fraud,Adversarial_Injection
+REF_0148,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 170). ['CRITICAL: Income >1.5x Verified (3.3x)', 'CRITICAL: Synthetic Profile (High Income / Deep Subprime)', 'Credit Score Risk (591)']",True,Fraud,Adversarial_Injection
+REF_0149,REJECTED,CreditBureauAgent,"CRITICAL FRAUD RISK (Score 90). ['CRITICAL: Hidden Debt Detected (₹24500)', 'Credit Score Risk (602)']",True,Fraud,Adversarial_Injection
+REF_0150,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0151,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0152,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0153,REJECTED,EligibilityAgent,Total obligations (₹36751) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0154,REJECTED,EligibilityAgent,Total obligations (₹16159) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0155,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0156,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0157,REJECTED,EligibilityAgent,Total obligations (₹73306) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0158,REJECTED,EligibilityAgent,Total obligations (₹45851) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0159,REJECTED,EligibilityAgent,Total obligations (₹39299) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0160,REJECTED,EligibilityAgent,Total obligations (₹145129) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0161,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0162,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0163,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0164,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0165,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0166,REJECTED,EligibilityAgent,Total obligations (₹35866) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0167,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0168,REJECTED,EligibilityAgent,Total obligations (₹48470) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0169,REJECTED,EligibilityAgent,Total obligations (₹27545) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0170,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0171,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0172,REJECTED,EligibilityAgent,Total obligations (₹57081) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0173,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0174,REJECTED,EligibilityAgent,Total obligations (₹63520) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0175,REJECTED,EligibilityAgent,Total obligations (₹31812) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0176,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0177,REJECTED,EligibilityAgent,Total obligations (₹54506) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0178,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0179,REJECTED,EligibilityAgent,Total obligations (₹63196) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0180,REJECTED,EligibilityAgent,Total obligations (₹119371) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0181,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0182,REJECTED,EligibilityAgent,Total obligations (₹34241) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0183,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0184,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0185,REJECTED,EligibilityAgent,Total obligations (₹81167) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0186,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0187,REJECTED,EligibilityAgent,Total obligations (₹36438) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0188,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0189,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0190,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0191,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0192,REJECTED,EligibilityAgent,Total obligations (₹95449) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0193,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0194,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0195,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0196,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0197,REJECTED,EligibilityAgent,Total obligations (₹129543) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0198,REJECTED,EligibilityAgent,Total obligations (₹32381) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0199,REJECTED,EligibilityAgent,Total obligations (₹118550) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0200,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0201,REJECTED,EligibilityAgent,Total obligations (₹92152) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0202,REJECTED,EligibilityAgent,Total obligations (₹45590) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0203,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0204,REJECTED,EligibilityAgent,Total obligations (₹30297) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0205,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0206,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0207,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0208,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0209,REJECTED,EligibilityAgent,Total obligations (₹34914) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0210,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0211,REJECTED,EligibilityAgent,Total obligations (₹22840) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0212,REJECTED,EligibilityAgent,Total obligations (₹122280) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0213,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0214,REJECTED,EligibilityAgent,Total obligations (₹43987) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0215,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0216,REJECTED,EligibilityAgent,Total obligations (₹37762) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0217,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0218,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0219,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0220,REJECTED,EligibilityAgent,Total obligations (₹18923) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0221,REJECTED,EligibilityAgent,Total obligations (₹23993) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0222,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0223,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0224,REJECTED,EligibilityAgent,Total obligations (₹36758) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0225,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0226,REJECTED,EligibilityAgent,Total obligations (₹48091) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0227,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0228,REJECTED,EligibilityAgent,Total obligations (₹82063) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0229,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0230,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0231,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0232,REJECTED,EligibilityAgent,Total obligations (₹96906) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0233,REJECTED,EligibilityAgent,Total obligations (₹138776) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0234,REJECTED,EligibilityAgent,Total obligations (₹35759) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0235,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0236,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0237,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0238,REJECTED,EligibilityAgent,Total obligations (₹42019) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0239,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0240,REJECTED,EligibilityAgent,Total obligations (₹32017) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0241,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0242,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0243,REJECTED,EligibilityAgent,Total obligations (₹112425) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0244,REJECTED,EligibilityAgent,Total obligations (₹49712) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0245,REJECTED,EligibilityAgent,Total obligations (₹32448) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0246,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0247,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0248,REJECTED,EligibilityAgent,Total obligations (₹36878) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0249,REJECTED,EligibilityAgent,Total obligations (₹36749) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0250,REJECTED,EligibilityAgent,Total obligations (₹38088) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0251,REJECTED,EligibilityAgent,Total obligations (₹94097) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0252,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0253,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0254,REJECTED,EligibilityAgent,Total obligations (₹37570) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0255,REJECTED,EligibilityAgent,Total obligations (₹39387) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0256,REJECTED,EligibilityAgent,Total obligations (₹66025) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0257,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0258,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0259,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0260,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0261,REJECTED,EligibilityAgent,Total obligations (₹79622) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0262,REJECTED,EligibilityAgent,Total obligations (₹40850) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0263,REJECTED,EligibilityAgent,Total obligations (₹32527) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0264,REJECTED,EligibilityAgent,Total obligations (₹57754) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0265,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0266,REJECTED,EligibilityAgent,Total obligations (₹76119) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0267,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0268,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0269,REJECTED,EligibilityAgent,Total obligations (₹114124) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0270,REJECTED,EligibilityAgent,Total obligations (₹78734) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0271,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0272,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0273,REJECTED,EligibilityAgent,Total obligations (₹38503) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0274,REJECTED,EligibilityAgent,Total obligations (₹40488) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0275,REJECTED,EligibilityAgent,Total obligations (₹35435) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0276,REJECTED,EligibilityAgent,Total obligations (₹25604) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0277,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0278,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0279,REJECTED,EligibilityAgent,Total obligations (₹146710) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0280,REJECTED,EligibilityAgent,Total obligations (₹59666) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0281,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0282,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0283,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0284,REJECTED,EligibilityAgent,Total obligations (₹32975) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0285,REJECTED,EligibilityAgent,Total obligations (₹42540) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0286,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0287,REJECTED,EligibilityAgent,Total obligations (₹76498) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0288,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0289,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0290,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0291,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0292,REJECTED,EligibilityAgent,Total obligations (₹98115) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0293,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0294,REJECTED,EligibilityAgent,Total obligations (₹28608) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0295,REJECTED,EligibilityAgent,Total obligations (₹122286) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0296,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0297,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0298,REJECTED,EligibilityAgent,Total obligations (₹86504) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0299,REJECTED,EligibilityAgent,Total obligations (₹84350) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0300,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0301,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0302,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0303,REJECTED,EligibilityAgent,Total obligations (₹17559) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0304,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0305,REJECTED,EligibilityAgent,Total obligations (₹22817) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0306,REJECTED,EligibilityAgent,Total obligations (₹31768) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0307,REJECTED,EligibilityAgent,Total obligations (₹58885) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0308,REJECTED,EligibilityAgent,Total obligations (₹57039) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0309,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0310,REJECTED,EligibilityAgent,Total obligations (₹25652) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0311,REJECTED,EligibilityAgent,Total obligations (₹66569) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0312,REJECTED,EligibilityAgent,Total obligations (₹25032) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0313,REJECTED,EligibilityAgent,Total obligations (₹44487) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0314,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0315,REJECTED,EligibilityAgent,Total obligations (₹152532) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0316,REJECTED,EligibilityAgent,Total obligations (₹36379) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0317,REJECTED,EligibilityAgent,Total obligations (₹104864) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0318,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0319,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0320,REJECTED,EligibilityAgent,Total obligations (₹40189) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0321,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0322,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0323,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0324,REJECTED,EligibilityAgent,Total obligations (₹35904) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0325,REJECTED,EligibilityAgent,Total obligations (₹141146) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0326,REJECTED,EligibilityAgent,Total obligations (₹29063) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0327,REJECTED,EligibilityAgent,Total obligations (₹45378) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0328,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0329,REJECTED,EligibilityAgent,Total obligations (₹26252) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0330,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0331,REJECTED,EligibilityAgent,Total obligations (₹58656) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0332,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0333,REJECTED,EligibilityAgent,Total obligations (₹54885) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0334,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0335,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0336,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0337,REJECTED,EligibilityAgent,Total obligations (₹22617) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0338,REJECTED,EligibilityAgent,Total obligations (₹57828) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0339,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0340,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0341,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0342,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0343,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0344,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0345,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0346,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0347,REJECTED,EligibilityAgent,Total obligations (₹17494) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0348,REJECTED,EligibilityAgent,Total obligations (₹37650) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0349,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0350,REJECTED,EligibilityAgent,Total obligations (₹73110) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0351,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0352,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0353,REJECTED,EligibilityAgent,Total obligations (₹36726) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0354,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0355,REJECTED,EligibilityAgent,Total obligations (₹31983) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0356,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0357,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0358,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0359,REJECTED,EligibilityAgent,Total obligations (₹58970) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0360,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0361,REJECTED,EligibilityAgent,Total obligations (₹31150) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0362,REJECTED,EligibilityAgent,Total obligations (₹76118) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0363,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0364,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0365,REJECTED,EligibilityAgent,Total obligations (₹26055) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0366,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0367,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0368,REJECTED,EligibilityAgent,Total obligations (₹55857) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0369,REJECTED,EligibilityAgent,Total obligations (₹32694) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0370,REJECTED,EligibilityAgent,Total obligations (₹63161) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0371,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0372,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0373,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0374,REJECTED,EligibilityAgent,Total obligations (₹30392) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0375,REJECTED,EligibilityAgent,Total obligations (₹76625) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0376,REJECTED,EligibilityAgent,Total obligations (₹48320) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0377,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0378,REJECTED,EligibilityAgent,Total obligations (₹28005) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0379,REJECTED,EligibilityAgent,Total obligations (₹80794) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0380,REJECTED,EligibilityAgent,Total obligations (₹39629) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0381,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0382,REJECTED,EligibilityAgent,Total obligations (₹28718) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0383,REJECTED,EligibilityAgent,Total obligations (₹45296) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0384,REJECTED,EligibilityAgent,Total obligations (₹24404) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0385,REJECTED,EligibilityAgent,Total obligations (₹50532) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0386,REJECTED,EligibilityAgent,Total obligations (₹71598) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0387,REJECTED,EligibilityAgent,Total obligations (₹93623) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0388,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0389,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0390,REJECTED,EligibilityAgent,Total obligations (₹55514) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0391,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0392,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0393,REJECTED,EligibilityAgent,Total obligations (₹35703) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0394,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0395,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0396,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0397,REJECTED,EligibilityAgent,Total obligations (₹46785) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0398,REJECTED,EligibilityAgent,Total obligations (₹40536) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0399,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0400,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0401,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0402,REJECTED,EligibilityAgent,Total obligations (₹24995) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0403,REJECTED,EligibilityAgent,Total obligations (₹34331) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0404,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0405,REJECTED,EligibilityAgent,Total obligations (₹101780) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0406,REJECTED,EligibilityAgent,Total obligations (₹59446) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0407,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0408,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0409,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0410,REJECTED,EligibilityAgent,Total obligations (₹49017) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0411,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0412,REJECTED,EligibilityAgent,Total obligations (₹34058) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0413,REJECTED,EligibilityAgent,Total obligations (₹26498) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0414,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0415,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0416,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0417,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0418,REJECTED,EligibilityAgent,Total obligations (₹48479) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0419,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0420,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0421,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0422,REJECTED,EligibilityAgent,Total obligations (₹31611) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0423,REJECTED,EligibilityAgent,Total obligations (₹70455) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0424,REJECTED,EligibilityAgent,Total obligations (₹66148) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0425,REJECTED,EligibilityAgent,Total obligations (₹26868) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0426,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0427,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0428,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0429,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0430,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0431,REJECTED,EligibilityAgent,Total obligations (₹60127) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0432,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0433,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0434,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0435,REJECTED,EligibilityAgent,Total obligations (₹34437) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0436,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0437,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0438,REJECTED,EligibilityAgent,Total obligations (₹54502) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0439,REJECTED,EligibilityAgent,Total obligations (₹20916) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0440,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0441,REJECTED,EligibilityAgent,Total obligations (₹29879) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0442,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0443,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0444,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0445,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0446,REJECTED,EligibilityAgent,Total obligations (₹88500) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0447,REJECTED,EligibilityAgent,Total obligations (₹102677) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0448,REJECTED,EligibilityAgent,Total obligations (₹53538) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0449,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0450,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0451,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0452,REJECTED,EligibilityAgent,Total obligations (₹35505) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0453,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0454,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0455,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0456,REJECTED,EligibilityAgent,Total obligations (₹24832) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0457,REJECTED,EligibilityAgent,Total obligations (₹55320) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0458,REJECTED,EligibilityAgent,Total obligations (₹59322) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0459,REJECTED,EligibilityAgent,Total obligations (₹32192) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0460,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0461,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0462,REJECTED,EligibilityAgent,Total obligations (₹44007) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0463,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0464,REJECTED,EligibilityAgent,Total obligations (₹29096) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0465,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0466,REJECTED,EligibilityAgent,Total obligations (₹44988) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0467,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0468,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0469,REJECTED,EligibilityAgent,Total obligations (₹21705) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0470,REJECTED,EligibilityAgent,Total obligations (₹25826) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0471,REJECTED,EligibilityAgent,Total obligations (₹19443) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0472,REJECTED,EligibilityAgent,Total obligations (₹81278) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0473,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0474,REJECTED,EligibilityAgent,Total obligations (₹46805) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0475,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0476,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0477,REJECTED,EligibilityAgent,Total obligations (₹76312) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0478,REJECTED,EligibilityAgent,Total obligations (₹42432) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0479,REJECTED,EligibilityAgent,Total obligations (₹37729) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0480,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0481,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0482,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0483,REJECTED,EligibilityAgent,Total obligations (₹60096) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0484,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0485,REJECTED,EligibilityAgent,Total obligations (₹104233) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0486,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0487,REJECTED,EligibilityAgent,Total obligations (₹24069) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0488,REJECTED,EligibilityAgent,Total obligations (₹64403) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0489,REJECTED,EligibilityAgent,Total obligations (₹37485) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0490,REJECTED,EligibilityAgent,Total obligations (₹42998) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0491,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0492,REJECTED,EligibilityAgent,Total obligations (₹53396) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0493,REJECTED,EligibilityAgent,Total obligations (₹36686) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0494,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0495,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0496,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0497,REJECTED,EligibilityAgent,Total obligations (₹41707) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0498,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0499,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0500,REJECTED,EligibilityAgent,Total obligations (₹139825) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0501,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0502,REJECTED,EligibilityAgent,Total obligations (₹142770) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0503,REJECTED,EligibilityAgent,Total obligations (₹86466) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0504,REJECTED,EligibilityAgent,Total obligations (₹67724) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0505,REJECTED,EligibilityAgent,Total obligations (₹28389) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0506,REJECTED,EligibilityAgent,Total obligations (₹74703) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0507,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0508,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0509,REJECTED,EligibilityAgent,Total obligations (₹36896) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0510,REJECTED,EligibilityAgent,Total obligations (₹27664) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0511,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0512,REJECTED,EligibilityAgent,Total obligations (₹168193) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0513,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0514,REJECTED,EligibilityAgent,Total obligations (₹130626) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0515,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0516,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0517,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0518,REJECTED,EligibilityAgent,Total obligations (₹158885) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0519,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0520,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0521,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0522,REJECTED,EligibilityAgent,Total obligations (₹47990) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0523,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0524,REJECTED,EligibilityAgent,Total obligations (₹26425) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0525,REJECTED,EligibilityAgent,Total obligations (₹58920) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0526,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0527,REJECTED,EligibilityAgent,Total obligations (₹48028) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0528,REJECTED,EligibilityAgent,Total obligations (₹106394) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0529,REJECTED,EligibilityAgent,Total obligations (₹65942) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0530,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0531,REJECTED,EligibilityAgent,Total obligations (₹37545) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0532,REJECTED,EligibilityAgent,Total obligations (₹36016) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0533,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0534,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0535,REJECTED,EligibilityAgent,Total obligations (₹25014) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0536,REJECTED,EligibilityAgent,Total obligations (₹88514) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0537,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0538,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0539,REJECTED,EligibilityAgent,Total obligations (₹34085) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0540,REJECTED,EligibilityAgent,Total obligations (₹52932) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0541,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0542,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0543,REJECTED,EligibilityAgent,Total obligations (₹38972) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0544,REJECTED,EligibilityAgent,Total obligations (₹14653) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0545,REJECTED,EligibilityAgent,Total obligations (₹27623) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0546,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0547,REJECTED,EligibilityAgent,Total obligations (₹142089) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0548,REJECTED,EligibilityAgent,Total obligations (₹45585) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0549,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0550,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0551,REJECTED,EligibilityAgent,Total obligations (₹56449) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0552,REJECTED,EligibilityAgent,Total obligations (₹21820) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0553,REJECTED,EligibilityAgent,Total obligations (₹77941) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0554,REJECTED,EligibilityAgent,Total obligations (₹45742) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0555,REJECTED,EligibilityAgent,Total obligations (₹79962) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0556,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0557,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0558,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0559,REJECTED,EligibilityAgent,Total obligations (₹47979) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0560,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0561,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0562,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0563,REJECTED,EligibilityAgent,Total obligations (₹48107) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0564,REJECTED,EligibilityAgent,Total obligations (₹25687) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0565,REJECTED,EligibilityAgent,Total obligations (₹97279) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0566,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0567,REJECTED,EligibilityAgent,Total obligations (₹71195) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0568,REJECTED,EligibilityAgent,Total obligations (₹27790) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0569,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0570,REJECTED,EligibilityAgent,Total obligations (₹25216) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0571,REJECTED,EligibilityAgent,Total obligations (₹30217) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0572,REJECTED,EligibilityAgent,Total obligations (₹26247) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0573,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0574,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0575,REJECTED,EligibilityAgent,Total obligations (₹81494) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0576,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0577,REJECTED,EligibilityAgent,Total obligations (₹36220) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0578,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0579,REJECTED,EligibilityAgent,Total obligations (₹88020) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0580,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0581,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0582,REJECTED,EligibilityAgent,Total obligations (₹49909) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0583,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0584,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0585,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0586,REJECTED,EligibilityAgent,Total obligations (₹35440) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0587,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0588,REJECTED,EligibilityAgent,Total obligations (₹18545) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0589,REJECTED,EligibilityAgent,Total obligations (₹37019) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0590,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0591,REJECTED,EligibilityAgent,Total obligations (₹22636) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0592,REJECTED,EligibilityAgent,Total obligations (₹130409) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0593,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0594,REJECTED,EligibilityAgent,Total obligations (₹44993) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0595,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0596,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0597,REJECTED,EligibilityAgent,Total obligations (₹27588) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0598,REJECTED,EligibilityAgent,Total obligations (₹61976) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0599,REJECTED,EligibilityAgent,Total obligations (₹30461) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0600,REJECTED,EligibilityAgent,Total obligations (₹26036) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0601,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0602,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0603,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0604,REJECTED,EligibilityAgent,Total obligations (₹68866) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0605,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0606,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0607,REJECTED,EligibilityAgent,Total obligations (₹40590) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0608,REJECTED,EligibilityAgent,Total obligations (₹129437) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0609,REJECTED,EligibilityAgent,Total obligations (₹24956) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0610,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0611,REJECTED,EligibilityAgent,Total obligations (₹45582) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0612,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0613,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0614,REJECTED,EligibilityAgent,Total obligations (₹107742) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0615,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0616,REJECTED,EligibilityAgent,Total obligations (₹113444) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0617,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0618,REJECTED,EligibilityAgent,Total obligations (₹30456) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0619,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0620,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0621,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0622,REJECTED,EligibilityAgent,Total obligations (₹36278) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0623,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0624,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0625,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0626,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0627,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0628,REJECTED,EligibilityAgent,Total obligations (₹97255) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0629,REJECTED,EligibilityAgent,Total obligations (₹53042) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0630,REJECTED,EligibilityAgent,Total obligations (₹32589) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0631,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0632,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0633,REJECTED,EligibilityAgent,Total obligations (₹78058) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0634,REJECTED,EligibilityAgent,Total obligations (₹34516) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0635,REJECTED,EligibilityAgent,Total obligations (₹28283) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0636,REJECTED,EligibilityAgent,Total obligations (₹28547) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0637,REJECTED,EligibilityAgent,Total obligations (₹63505) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0638,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0639,REJECTED,EligibilityAgent,Total obligations (₹38889) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0640,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0641,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0642,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0643,REJECTED,EligibilityAgent,Total obligations (₹29957) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0644,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0645,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0646,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0647,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0648,REJECTED,EligibilityAgent,Total obligations (₹696777) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0649,REJECTED,EligibilityAgent,Total obligations (₹69747) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0650,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0651,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0652,REJECTED,EligibilityAgent,Total obligations (₹128023) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0653,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0654,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0655,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0656,REJECTED,EligibilityAgent,Total obligations (₹106167) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0657,REJECTED,EligibilityAgent,Total obligations (₹44331) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0658,REJECTED,EligibilityAgent,Total obligations (₹28010) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0659,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0660,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0661,REJECTED,EligibilityAgent,Total obligations (₹21741) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0662,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0663,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0664,REJECTED,EligibilityAgent,Total obligations (₹38270) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0665,REJECTED,EligibilityAgent,Total obligations (₹83077) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0666,REJECTED,EligibilityAgent,Total obligations (₹47871) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0667,REJECTED,EligibilityAgent,Total obligations (₹34356) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0668,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0669,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0670,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0671,REJECTED,EligibilityAgent,Total obligations (₹36132) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0672,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0673,REJECTED,EligibilityAgent,Total obligations (₹104379) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0674,REJECTED,EligibilityAgent,Total obligations (₹24939) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0675,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0676,REJECTED,EligibilityAgent,Total obligations (₹40132) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0677,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0678,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0679,REJECTED,EligibilityAgent,Total obligations (₹77889) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0680,REJECTED,EligibilityAgent,Total obligations (₹39566) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0681,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0682,REJECTED,EligibilityAgent,Total obligations (₹123024) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0683,REJECTED,EligibilityAgent,Total obligations (₹23926) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0684,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0685,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0686,REJECTED,EligibilityAgent,Total obligations (₹77368) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0687,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0688,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0689,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0690,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0691,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0692,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0693,REJECTED,EligibilityAgent,Total obligations (₹87187) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0694,REJECTED,EligibilityAgent,Total obligations (₹38752) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0695,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0696,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0697,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0698,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0699,REJECTED,EligibilityAgent,Total obligations (₹28808) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0700,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0701,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0702,REJECTED,EligibilityAgent,Total obligations (₹39853) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0703,REJECTED,EligibilityAgent,Total obligations (₹35006) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0704,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0705,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0706,REJECTED,EligibilityAgent,Total obligations (₹49081) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0707,REJECTED,EligibilityAgent,Total obligations (₹37064) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0708,REJECTED,EligibilityAgent,Total obligations (₹51670) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0709,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0710,REJECTED,EligibilityAgent,Total obligations (₹105466) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0711,REJECTED,EligibilityAgent,Total obligations (₹49081) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0712,REJECTED,EligibilityAgent,Total obligations (₹46487) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0713,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0714,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0715,REJECTED,EligibilityAgent,Total obligations (₹80554) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0716,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0717,REJECTED,EligibilityAgent,Total obligations (₹29908) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0718,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0719,REJECTED,EligibilityAgent,Total obligations (₹75052) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0720,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0721,REJECTED,EligibilityAgent,Total obligations (₹41232) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0722,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0723,REJECTED,EligibilityAgent,Total obligations (₹34056) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0724,REJECTED,EligibilityAgent,Total obligations (₹102673) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0725,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0726,REJECTED,EligibilityAgent,Total obligations (₹42129) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0727,REJECTED,EligibilityAgent,Total obligations (₹122269) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0728,REJECTED,EligibilityAgent,Total obligations (₹42386) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0729,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0730,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0731,REJECTED,EligibilityAgent,Total obligations (₹94147) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0732,REJECTED,EligibilityAgent,Total obligations (₹102085) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0733,REJECTED,EligibilityAgent,Total obligations (₹34602) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0734,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0735,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0736,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0737,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0738,REJECTED,EligibilityAgent,Total obligations (₹73967) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0739,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0740,REJECTED,EligibilityAgent,Total obligations (₹22485) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0741,REJECTED,EligibilityAgent,Total obligations (₹30833) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0742,REJECTED,EligibilityAgent,Total obligations (₹54129) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0743,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0744,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0745,REJECTED,EligibilityAgent,Total obligations (₹76550) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0746,REJECTED,EligibilityAgent,Total obligations (₹53491) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0747,REJECTED,EligibilityAgent,Total obligations (₹30925) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0748,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0749,REJECTED,EligibilityAgent,Total obligations (₹18824) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0750,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0751,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0752,REJECTED,EligibilityAgent,Total obligations (₹104666) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0753,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0754,REJECTED,EligibilityAgent,Total obligations (₹51955) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0755,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0756,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0757,REJECTED,EligibilityAgent,Total obligations (₹34826) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0758,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0759,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0760,REJECTED,EligibilityAgent,Total obligations (₹76907) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0761,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0762,REJECTED,EligibilityAgent,Total obligations (₹53177) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0763,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0764,REJECTED,EligibilityAgent,Total obligations (₹16190) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0765,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0766,REJECTED,EligibilityAgent,Total obligations (₹34369) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0767,REJECTED,EligibilityAgent,Total obligations (₹41237) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0768,REJECTED,EligibilityAgent,Total obligations (₹34254) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0769,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0770,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0771,REJECTED,EligibilityAgent,Total obligations (₹42896) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0772,REJECTED,EligibilityAgent,Total obligations (₹31792) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0773,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0774,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0775,REJECTED,EligibilityAgent,Total obligations (₹35345) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0776,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0777,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0778,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0779,REJECTED,EligibilityAgent,Total obligations (₹48415) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0780,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0781,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0782,REJECTED,EligibilityAgent,Total obligations (₹28949) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0783,REJECTED,EligibilityAgent,Total obligations (₹17979) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0784,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0785,REJECTED,EligibilityAgent,Total obligations (₹113162) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0786,REJECTED,EligibilityAgent,Total obligations (₹31211) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0787,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0788,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0789,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0790,REJECTED,EligibilityAgent,Total obligations (₹54958) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0791,REJECTED,EligibilityAgent,Total obligations (₹39431) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0792,REJECTED,EligibilityAgent,Total obligations (₹45641) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0793,REJECTED,EligibilityAgent,Total obligations (₹82838) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0794,REJECTED,EligibilityAgent,Total obligations (₹70910) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0795,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0796,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0797,REJECTED,EligibilityAgent,Total obligations (₹30676) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0798,REJECTED,EligibilityAgent,Total obligations (₹40171) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0799,REJECTED,EligibilityAgent,Total obligations (₹25761) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0800,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0801,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0802,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0803,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0804,REJECTED,EligibilityAgent,Total obligations (₹71057) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0805,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0806,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0807,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0808,REJECTED,EligibilityAgent,Total obligations (₹23832) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0809,REJECTED,EligibilityAgent,Total obligations (₹50848) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0810,REJECTED,EligibilityAgent,Total obligations (₹72583) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0811,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0812,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0813,REJECTED,EligibilityAgent,Total obligations (₹65591) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0814,REJECTED,EligibilityAgent,Total obligations (₹39181) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0815,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0816,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0817,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0818,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0819,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0820,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0821,REJECTED,EligibilityAgent,Total obligations (₹50599) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0822,REJECTED,EligibilityAgent,Total obligations (₹63835) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0823,REJECTED,EligibilityAgent,Total obligations (₹34724) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0824,REJECTED,EligibilityAgent,Total obligations (₹111334) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0825,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0826,REJECTED,EligibilityAgent,Total obligations (₹27259) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0827,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0828,REJECTED,EligibilityAgent,Total obligations (₹62204) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0829,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0830,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0831,REJECTED,EligibilityAgent,Total obligations (₹35398) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0832,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0833,REJECTED,EligibilityAgent,Total obligations (₹13013) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0834,REJECTED,EligibilityAgent,Total obligations (₹24830) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0835,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0836,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0837,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0838,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0839,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0840,REJECTED,EligibilityAgent,Total obligations (₹41549) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0841,REJECTED,EligibilityAgent,Total obligations (₹45577) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0842,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0843,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0844,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0845,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0846,REJECTED,EligibilityAgent,Total obligations (₹27599) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0847,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0848,REJECTED,EligibilityAgent,Total obligations (₹81721) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0849,REJECTED,EligibilityAgent,Total obligations (₹24266) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0850,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0851,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0852,REJECTED,EligibilityAgent,Total obligations (₹30361) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0853,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0854,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0855,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0856,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0857,REJECTED,EligibilityAgent,Total obligations (₹30864) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0858,REJECTED,EligibilityAgent,Total obligations (₹355469) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0859,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0860,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0861,REJECTED,EligibilityAgent,Total obligations (₹44832) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0862,REJECTED,EligibilityAgent,Total obligations (₹50195) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0863,REJECTED,EligibilityAgent,Total obligations (₹38809) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0864,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0865,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0866,REJECTED,EligibilityAgent,Total obligations (₹35854) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0867,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0868,REJECTED,EligibilityAgent,Total obligations (₹46642) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0869,REJECTED,EligibilityAgent,Total obligations (₹36901) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0870,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0871,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0872,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0873,REJECTED,EligibilityAgent,Total obligations (₹19258) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0874,REJECTED,EligibilityAgent,Total obligations (₹27337) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0875,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0876,REJECTED,EligibilityAgent,Total obligations (₹45337) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0877,REJECTED,EligibilityAgent,Total obligations (₹51810) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0878,REJECTED,EligibilityAgent,Total obligations (₹93448) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0879,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0880,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0881,REJECTED,EligibilityAgent,Total obligations (₹79678) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0882,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0883,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0884,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0885,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0886,REJECTED,EligibilityAgent,Total obligations (₹95518) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0887,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0888,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0889,REJECTED,EligibilityAgent,Total obligations (₹106998) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0890,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0891,REJECTED,EligibilityAgent,Total obligations (₹29169) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0892,REJECTED,EligibilityAgent,Total obligations (₹35277) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0893,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0894,REJECTED,EligibilityAgent,Total obligations (₹79775) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0895,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0896,REJECTED,EligibilityAgent,Total obligations (₹48460) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0897,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0898,REJECTED,EligibilityAgent,Total obligations (₹26351) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0899,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0900,REJECTED,EligibilityAgent,Total obligations (₹30478) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0901,REJECTED,EligibilityAgent,Total obligations (₹50686) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0902,REJECTED,EligibilityAgent,Total obligations (₹43198) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0903,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0904,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0905,REJECTED,EligibilityAgent,Total obligations (₹30982) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0906,REJECTED,EligibilityAgent,Total obligations (₹100745) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0907,REJECTED,EligibilityAgent,Total obligations (₹36356) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0908,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0909,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0910,REJECTED,EligibilityAgent,Total obligations (₹41384) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0911,REJECTED,EligibilityAgent,Total obligations (₹88269) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0912,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0913,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0914,REJECTED,EligibilityAgent,Total obligations (₹26087) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0915,REJECTED,EligibilityAgent,Total obligations (₹26342) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0916,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0917,REJECTED,EligibilityAgent,Total obligations (₹51545) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0918,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0919,REJECTED,EligibilityAgent,Total obligations (₹45322) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0920,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0921,REJECTED,EligibilityAgent,Total obligations (₹119134) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0922,REJECTED,EligibilityAgent,Total obligations (₹48978) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0923,REJECTED,EligibilityAgent,Total obligations (₹23555) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0924,REJECTED,EligibilityAgent,Total obligations (₹41392) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0925,REJECTED,EligibilityAgent,Total obligations (₹52184) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0926,REJECTED,EligibilityAgent,Total obligations (₹39616) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0927,REJECTED,EligibilityAgent,Total obligations (₹111142) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0928,REJECTED,EligibilityAgent,Total obligations (₹45664) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0929,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0930,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0931,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0932,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0933,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0934,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0935,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0936,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0937,REJECTED,EligibilityAgent,Total obligations (₹38785) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0938,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0939,REJECTED,EligibilityAgent,Total obligations (₹21502) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0940,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0941,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0942,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0943,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0944,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0945,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0946,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0947,REJECTED,EligibilityAgent,Total obligations (₹18167) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0948,REJECTED,EligibilityAgent,Total obligations (₹19161) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0949,REJECTED,EligibilityAgent,Total obligations (₹37105) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0950,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0951,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0952,REJECTED,EligibilityAgent,Total obligations (₹70898) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0953,REJECTED,EligibilityAgent,Total obligations (₹41512) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0954,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0955,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0956,REJECTED,EligibilityAgent,Total obligations (₹33511) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0957,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0958,REJECTED,EligibilityAgent,Total obligations (₹45104) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0959,REJECTED,EligibilityAgent,Total obligations (₹37030) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0960,REJECTED,EligibilityAgent,Total obligations (₹37239) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0961,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0962,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0963,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0964,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0965,REJECTED,EligibilityAgent,Total obligations (₹32736) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0966,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0967,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0968,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0969,REJECTED,EligibilityAgent,Total obligations (₹151144) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0970,REJECTED,EligibilityAgent,Total obligations (₹39402) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0971,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0972,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0973,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0974,REJECTED,EligibilityAgent,Total obligations (₹33245) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0975,REJECTED,EligibilityAgent,Total obligations (₹16941) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0976,REJECTED,EligibilityAgent,Total obligations (₹58207) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0977,REJECTED,EligibilityAgent,Total obligations (₹40632) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0978,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0979,REJECTED,EligibilityAgent,Total obligations (₹23118) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0980,REJECTED,EligibilityAgent,Total obligations (₹30062) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0981,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0982,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0983,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0984,REJECTED,EligibilityAgent,Total obligations (₹36521) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0985,REJECTED,EligibilityAgent,Total obligations (₹36485) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0986,REJECTED,EligibilityAgent,Total obligations (₹96932) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0987,REJECTED,EligibilityAgent,Total obligations (₹65936) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0988,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0989,REJECTED,EligibilityAgent,Total obligations (₹59370) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0990,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0991,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0992,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0993,REJECTED,EligibilityAgent,Total obligations (₹53455) exceed 50% of income.,False,Ineligible_Credit,PLFS_2024_Synthetic
+REF_0994,REJECTED,EligibilityAgent,Total obligations (₹59683) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0995,REJECTED,EligibilityAgent,Total obligations (₹26806) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0996,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0997,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
+REF_0998,REJECTED,EligibilityAgent,Total obligations (₹23362) exceed 50% of income.,False,Eligible,PLFS_2024_Synthetic
+REF_0999,REJECTED,EligibilityAgent,"Income below minimum threshold of ₹25,000",False,Ineligible_Income,PLFS_2024_Synthetic
