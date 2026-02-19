@@ -1,8 +1,5 @@
 # Early-Stage Loan Underwriting Using Agentic Master-Worker Conversational Orchestration
 
-**NCRICCT'26 Conference Paper** | **Kuppam Engineering College**
-
----
 
 ## Overview
 
