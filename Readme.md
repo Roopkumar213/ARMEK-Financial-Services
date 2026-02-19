@@ -79,7 +79,6 @@ Expected: 47% early rejection, 94.7% gating precision, matches all paper tables.
 
 File Structure
 text
-├── streamlit_ui.py          # Chat interface (Fig. 1)
 ├── master_agent.py         # Central orchestrator (Algorithm 1)
 ├── worker_agents.py        # KYC/Credit/Document workers
 ├── generate_dataset.py     # PLFS/CIBIL dataset (Table I)
